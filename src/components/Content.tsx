@@ -16,30 +16,30 @@ const ContentItem = ({ name, githubUrl, description, appUrl, thumbnail, stacks }
   return (
     <div className='grid grid-cols-4 border-b border-gray-200 py-2'>
       <div className='col-span-1 flex items-center gap-x-2'>
-        <p className='text-sm text-stone-800'>{name}</p>
+        <p className='text-sm text-stone-800 dark:text-white dark:opacity-75'>{name}</p>
         <Link
           href={`${githubUrl}`}
           className='rounded-full border border-gray-200 p-1 shadow-md shadow-gray-500 hover:bg-gray-300 hover:bg-opacity-40'
         >
-          <IconBrandGithub size={15} fill='black' />
+          <IconBrandGithub size={15} className='fill-black dark:fill-white dark:stroke-white dark:opacity-75' />
         </Link>
       </div>
       <div className='col-span-1 flex items-center text-start'>
-        <p className='line-clamp-1 flex-nowrap text-sm text-stone-800'>{description}</p>
+        <p className='line-clamp-1 flex-nowrap text-sm text-stone-800 dark:text-white dark:opacity-75'>{description}</p>
       </div>
       <div className=' col-span-1 flex items-center justify-start'>
         <Link href={`${appUrl}`}>
           <Image
             src={`/${thumbnail}`}
-            alt='recurrot-thumbnail'
+            alt={`/${thumbnail}`}
             height={100}
             width={100}
-            className='rounded shadow hover:shadow-xl'
+            className='h-auto w-auto rounded shadow hover:shadow-xl'
             priority
           />
         </Link>
       </div>
-      <div className='col-span-1 text-xs text-stone-800'>
+      <div className='col-span-1 text-xs text-stone-800 dark:text-white dark:opacity-75'>
         <ul className='list-disc'>
           {stacks.map((stack) => {
             return <li key={stack}>{stack}</li>
