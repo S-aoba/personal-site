@@ -66,7 +66,7 @@ const portfolioDataList: PortfolioDataListType[] = [
     description: 'QA App',
     appUrl: 'https://recurrot.vercel.app/',
     thumbnail: 'recurrot-thumbnail3.png',
-    stacks: ['TypeScript', 'NextJs', 'tailwindCss', 'jotai', 'TanStack Query', 'NestJs', 'prisma'],
+    stacks: ['TypeScript', 'NextJs', 'tailwindCss', 'jotai', 'TanStack Query'],
   },
   {
     name: 'Memory-game',
