@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <Personal />
+      <div className='my-6'></div>
       <Recursion />
     </>
   )
