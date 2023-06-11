@@ -1,11 +1,11 @@
-import { Content } from '@/components/Content'
-import { EntryColumn } from '@/components/EntryColumn'
+import { Personal } from '@/components/Personal/Personal'
+import { Recursion } from '@/components/Recursion/Recursion'
 
 export default function Home() {
   return (
     <>
-      <EntryColumn />
-      <Content />
+      <Personal />
+      <Recursion />
     </>
   )
 }
