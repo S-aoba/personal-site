@@ -61,12 +61,12 @@ type PortfolioDataListType = {
 
 const portfolioDataList: PortfolioDataListType[] = [
   {
-    name: 'Recurrot',
-    githubUrl: 'https://github.com/S-aoba/Recurrot',
+    name: 'QA-site-supabase',
+    githubUrl: 'https://github.com/S-aoba/qa-site-supabase',
     description: 'QA App',
-    appUrl: 'https://recurrot.vercel.app/',
-    thumbnail: 'recurrot-thumbnail3.png',
-    stacks: ['TypeScript', 'NextJs', 'tailwindCss', 'jotai', 'TanStack Query'],
+    appUrl: 'https://qa-site-supabase.vercel.app/',
+    thumbnail: 'qa-site-thumbnail.png',
+    stacks: ['TypeScript', 'NextJs', 'tailwindCss', 'jotai', 'supabase'],
   },
   {
     name: 'Memory-game',
