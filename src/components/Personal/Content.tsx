@@ -66,7 +66,7 @@ const portfolioDataList: PortfolioDataListType[] = [
     description: 'QA App',
     appUrl: 'https://qa-site-supabase.vercel.app/',
     thumbnail: 'qa-site-thumbnail.png',
-    stacks: ['TypeScript', 'NextJs', 'tailwindCss', 'jotai', 'supabase'],
+    stacks: ['TypeScript', 'NextJs', 'tailwindCss', 'jotai', 'supabase', 'shadcn/ui'],
   },
   {
     name: 'Memory-game',
